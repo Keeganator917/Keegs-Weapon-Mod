@@ -27,16 +27,10 @@ public abstract class ItemStackMixin {
     @Shadow
     public abstract boolean hasEnchantments();
 
-    /**
-     * LOGIC: Upgrades the Rarity Enum returned by the item based on enchantments.
-     * Common/Uncommon -> Rare
-     * Rare -> Epic
-     * Epic -> Epic (Because we can't return a custom 'Legendary' enum here)
-     */
     @Inject(method = "getRarity", at = @At("RETURN"), cancellable = true)
     public void getRarity(CallbackInfoReturnable<Rarity> cir) {
         if (this.hasEnchantments()) {
-            Rarity currentRarity = cir.getReturnValue(); // This gets the base rarity from components
+            Rarity currentRarity = cir.getReturnValue();
 
             switch (currentRarity) {
                 case COMMON:
@@ -47,8 +41,6 @@ public abstract class ItemStackMixin {
                     cir.setReturnValue(Rarity.EPIC);
                     break;
                 case EPIC:
-                    // We technically want LEGENDARY here, but we return EPIC
-                    // and handle the Gold color in the getName method below.
                     cir.setReturnValue(Rarity.EPIC);
                     break;
                 default:
