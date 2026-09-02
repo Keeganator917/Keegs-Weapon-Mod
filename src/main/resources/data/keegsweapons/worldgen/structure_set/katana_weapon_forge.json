@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "keegsweapons:katana_weapon_forge",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 500,
+    "separation": 300,
+    "salt": 3234561
+  }
+}

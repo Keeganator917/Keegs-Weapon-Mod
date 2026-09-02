@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "#minecraft:planks"
+  },
+  "pattern": [
+    " X ",
+    "XXX",
+    " # "
+  ],
+  "result": {
+    "id": "keegsweapons:wooden_greatsword"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "keegsweapons:item/grand_assassins_dagger"
+  }
+}

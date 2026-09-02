@@ -1,0 +1,106 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "keegsweapons:gravity"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "keegsweapons:double_jump"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "keegsweapons:diamond_dagger",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "keegsweapons:diamond_katana",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "keegsweapons:diamond_greatsword",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "keegsweapons:diamond_scythe",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "keegsweapons:diamond_scythe",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "only_compatible": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "keegsweapons:diamond_dagger",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "only_compatible": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "keegsweapons:diamond_katana",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "only_compatible": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "keegsweapons:diamond_greatsword",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "only_compatible": true
+            }
+          ]
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 2,
+        "min": 1
+      }
+    }
+  ],
+  "random_sequence": "keegsweapons:inject/chests/end_city_treasure"
+}

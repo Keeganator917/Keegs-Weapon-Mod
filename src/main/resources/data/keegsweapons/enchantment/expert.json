@@ -1,0 +1,29 @@
+{
+  "anvil_cost": 5,
+  "description": {
+    "translate": "enchantment.keegsweapons.expert"
+  },
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "keegsweapons:expert"
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 15,
+    "per_level_above_first": 6
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 8
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#keegsweapons:enchantable/can_harvest_experience",
+  "weight": 2
+}

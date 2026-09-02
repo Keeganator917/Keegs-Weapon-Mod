@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "#minecraft:planks"
+  },
+  "pattern": [
+    "XXX",
+    " # ",
+    "#  "
+  ],
+  "result": {
+    "id": "keegsweapons:wooden_scythe"
+  },
+  "show_notification": true
+}

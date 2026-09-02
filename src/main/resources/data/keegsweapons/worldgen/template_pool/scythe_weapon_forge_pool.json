@@ -1,0 +1,15 @@
+{
+  "name": "keegsweapons:scythe_weapon_forge_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "keegsweapons:scythe_weapon_forge",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

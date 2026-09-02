@@ -1,0 +1,56 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"texture_size": [16, 16],
+	"textures": {
+		"4": "keegsweapons:block/weapon_forge_bottom",
+		"7": "keegsweapons:block/weapon_forge_top",
+		"8": "keegsweapons:block/weapon_forge_side",
+		"9": "minecraft:block/lava_still",
+		"particle": "keegsweapons:block/weapon_forge_side"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#8"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#8"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#8"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#8"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#7"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#4"}
+			}
+		},
+		{
+			"from": [0.25, 0.25, 0.25],
+			"to": [15.75, 15.95, 15.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.25, 0.25, 0.25]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 15.9], "texture": "#9"},
+				"east": {"uv": [0, 0, 16, 15.9], "texture": "#9"},
+				"south": {"uv": [0, 0, 16, 15.9], "texture": "#9"},
+				"west": {"uv": [0, 0, 16, 15.9], "texture": "#9"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#9"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#9"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

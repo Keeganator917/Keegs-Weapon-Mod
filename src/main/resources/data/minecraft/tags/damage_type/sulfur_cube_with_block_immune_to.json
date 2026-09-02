@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "keegsweapons:grounded",
+    "keegsweapons:reapers_scythe_ability",
+    "keegsweapons:reapers_scythe_attack",
+    "keegsweapons:grand_assassins_dagger_attack",
+    "keegsweapons:shoguns_katana_attack",
+    "keegsweapons:kingly_greatsword_attack",
+    "keegsweapons:shockwave"
+  ]
+}

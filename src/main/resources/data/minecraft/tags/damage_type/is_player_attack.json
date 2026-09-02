@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "keegsweapons:reapers_scythe_attack",
+    "keegsweapons:grand_assassins_dagger_attack",
+    "keegsweapons:shoguns_katana_attack",
+    "keegsweapons:kingly_greatsword_attack"
+  ]
+}

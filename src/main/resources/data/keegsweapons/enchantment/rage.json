@@ -1,0 +1,30 @@
+{
+  "anvil_cost": 8,
+  "description": {
+    "translate": "enchantment.keegsweapons.rage"
+  },
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "keegsweapons:rage"
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#keegsweapons:exclusive_set/rage_set",
+  "max_cost": {
+    "base": 14,
+    "per_level_above_first": 4
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 6
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#keegsweapons:enchantable/can_have_rage",
+  "weight": 2
+}

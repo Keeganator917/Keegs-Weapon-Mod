@@ -1,0 +1,32 @@
+{
+  "anvil_cost": 6,
+  "description": {
+    "translate": "enchantment.keegsweapons.frostfall"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "keegsweapons:frostfall"
+        },
+        "enchanted": "attacker"
+      }
+    ]
+  },
+  "exclusive_set": "#keegsweapons:exclusive_set/frostfall_set",
+  "max_cost": {
+    "base": 12,
+    "per_level_above_first": 4
+  },
+  "max_level": 2,
+  "min_cost": {
+    "base": 8,
+    "per_level_above_first": 6
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#keegsweapons:enchantable/can_have_frostfall",
+  "weight": 2
+}

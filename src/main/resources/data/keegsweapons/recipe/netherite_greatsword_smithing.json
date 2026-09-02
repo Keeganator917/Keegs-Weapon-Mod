@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "#minecraft:netherite_tool_materials",
+  "base": "keegsweapons:diamond_greatsword",
+  "result": {
+    "id": "keegsweapons:netherite_greatsword"
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}

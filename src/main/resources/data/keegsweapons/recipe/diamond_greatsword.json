@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "minecraft:diamond"
+  },
+  "pattern": [
+    " X ",
+    "XXX",
+    " # "
+  ],
+  "result": {
+    "id": "keegsweapons:diamond_greatsword"
+  },
+  "show_notification": true
+}

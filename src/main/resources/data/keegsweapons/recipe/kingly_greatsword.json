@@ -1,0 +1,30 @@
+{
+  "type": "keegsweapons:weapon_forge",
+  "weapon_type": "greatsword",
+  "pattern": [
+    "GSSSSSG",
+    "SdFWRNS",
+    "SWDRNRS",
+    "SWE#RWS",
+    "SBdEDFS",
+    "SEBWWdS",
+    "GSSSSSG"
+  ],
+  "key": {
+    "D": "minecraft:diamond",
+    "N": "minecraft:netherite_ingot",
+    "G": "minecraft:gunpowder",
+    "d": "minecraft:diamond_block",
+    "S": "minecraft:redstone",
+    "W": "minecraft:wind_charge",
+    "R": "minecraft:redstone_block",
+    "B": "minecraft:gold_block",
+    "E": "minecraft:emerald_block",
+    "F": "minecraft:feather",
+    "#": "keegsweapons:netherite_greatsword"
+  },
+  "result": {
+    "id": "keegsweapons:kingly_greatsword",
+    "count": 1
+  }
+}
