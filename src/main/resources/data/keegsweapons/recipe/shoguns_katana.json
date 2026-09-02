@@ -1,0 +1,31 @@
+{
+  "type": "keegsweapons:weapon_forge",
+  "weapon_type": "katana",
+    "pattern": [
+      "SPPBPPS",
+      "PDGRDNP",
+      "PGMMFDP",
+      "BLMCMRB",
+      "P#GMMGP",
+      "PN#LGDP",
+      "SPPBPPS"
+    ],
+    "key": {
+      "P": "minecraft:pink_petals",
+      "S": "minecraft:cherry_sapling",
+      "B": "minecraft:bamboo",
+      "L": "minecraft:slime_block",
+      "M": "minecraft:glistering_melon_slice",
+      "F": "minecraft:rabbit_foot",
+      "R": "minecraft:breeze_rod",
+      "D": "minecraft:diamond",
+      "#": "minecraft:diamond_block",
+      "N": "minecraft:netherite_ingot",
+      "G": "minecraft:gold_block",
+      "C": "keegsweapons:netherite_katana"
+    },
+  "result": {
+    "id": "keegsweapons:shoguns_katana",
+    "count": 1
+  }
+}

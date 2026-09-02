@@ -1,0 +1,17 @@
+{
+  "values": [
+    "#minecraft:is_beach",
+    "#minecraft:is_river",
+    "#minecraft:is_taiga",
+    "#minecraft:is_forest",
+    "#minecraft:is_savanna",
+    "#minecraft:is_jungle",
+    "minecraft:mushroom_fields",
+    "minecraft:snowy_plains",
+    "minecraft:snowy_slopes",
+    "minecraft:plains",
+    "minecraft:meadow",
+    "minecraft:sunflower_plains",
+    "minecraft:cherry_grove"
+  ]
+}

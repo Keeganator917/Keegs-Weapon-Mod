@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "minecraft:gold_ingot"
+  },
+  "pattern": [
+    " X ",
+    "XXX",
+    " # "
+  ],
+  "result": {
+    "id": "keegsweapons:golden_greatsword"
+  },
+  "show_notification": true
+}

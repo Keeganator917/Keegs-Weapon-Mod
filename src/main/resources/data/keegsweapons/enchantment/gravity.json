@@ -1,0 +1,32 @@
+{
+  "anvil_cost": 8,
+  "description": {
+    "translate": "enchantment.keegsweapons.gravity"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "keegsweapons:gravity"
+        },
+        "enchanted": "attacker"
+      }
+    ]
+  },
+  "exclusive_set": "#keegsweapons:exclusive_set/gravity_set",
+  "max_cost": {
+    "base": 12,
+    "per_level_above_first": 4
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 8,
+    "per_level_above_first": 6
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#keegsweapons:enchantable/can_have_gravity",
+  "weight": 2
+}

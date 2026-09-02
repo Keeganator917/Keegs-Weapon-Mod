@@ -1,0 +1,121 @@
+{
+  "item.keegsweapons.wooden_scythe": "Wooden Scythe",
+  "item.keegsweapons.stone_scythe": "Stone Scythe",
+  "item.keegsweapons.copper_scythe": "Copper Scythe",
+  "item.keegsweapons.iron_scythe": "Iron Scythe",
+  "item.keegsweapons.golden_scythe": "Golden Scythe",
+  "item.keegsweapons.diamond_scythe": "Diamond Scythe",
+  "item.keegsweapons.netherite_scythe": "Netherite Scythe",
+  "item.keegsweapons.wooden_dagger": "Wooden Dagger",
+  "item.keegsweapons.stone_dagger": "Stone Dagger",
+  "item.keegsweapons.copper_dagger": "Copper Dagger",
+  "item.keegsweapons.iron_dagger": "Iron Dagger",
+  "item.keegsweapons.golden_dagger": "Golden Dagger",
+  "item.keegsweapons.diamond_dagger": "Diamond Dagger",
+  "item.keegsweapons.netherite_dagger": "Netherite Dagger",
+  "item.keegsweapons.wooden_katana": "Wooden Katana",
+  "item.keegsweapons.stone_katana": "Stone Katana",
+  "item.keegsweapons.copper_katana": "Copper Katana",
+  "item.keegsweapons.iron_katana": "Iron Katana",
+  "item.keegsweapons.golden_katana": "Golden Katana",
+  "item.keegsweapons.diamond_katana": "Diamond Katana",
+  "item.keegsweapons.netherite_katana": "Netherite Katana",
+  "item.keegsweapons.wooden_greatsword": "Wooden Greatsword",
+  "item.keegsweapons.stone_greatsword": "Stone Greatsword",
+  "item.keegsweapons.copper_greatsword": "Copper Greatsword",
+  "item.keegsweapons.iron_greatsword": "Iron Greatsword",
+  "item.keegsweapons.golden_greatsword": "Golden Greatsword",
+  "item.keegsweapons.diamond_greatsword": "Diamond Greatsword",
+  "item.keegsweapons.netherite_greatsword": "Netherite Greatsword",
+  "item.keegsweapons.grand_assassins_dagger": "Grand Assassin's Dagger",
+  "item.keegsweapons.reapers_scythe": "Reaper's Scythe",
+  "item.keegsweapons.shoguns_katana": "Shogun's Katana",
+  "item.keegsweapons.kingly_greatsword": "Kingly Greatsword",
+
+  "block.keegsweapons.anti_air_beacon": "Anti-air Beacon",
+
+  "block.keegsweapons.scythe_weapon_forge": "Scythe Weapon Forge",
+  "container.weapon_forge.scythe": "Scythe Weapon Forge",
+
+  "block.keegsweapons.dagger_weapon_forge": "Dagger Weapon Forge",
+  "container.weapon_forge.dagger": "Dagger Weapon Forge",
+
+  "block.keegsweapons.katana_weapon_forge": "Katana Weapon Forge",
+  "container.weapon_forge.katana": "Katana Weapon Forge",
+
+  "block.keegsweapons.greatsword_weapon_forge": "Greatsword Weapon Forge",
+  "container.weapon_forge.greatsword": "Greatsword Weapon Forge",
+
+  "container.weapon_forge": "Weapon Forge",
+  "block.keegsweapons.unpowered_forge1": "It looks unpowered...",
+  "block.keegsweapons.unpowered_forge2": "Maybe powering the forge will activate it...",
+  "block.keegsweapons.unpowered_forge3": "The forge needs to be powered...",
+
+  "enchantment.keegsweapons.thundering": "Thundering",
+  "enchantment.keegsweapons.thundering.desc": "1/20 chance to strike lightning when attacking a target. Increases to 1/10 at level 2",
+  "enchantment.keegsweapons.poison_tipped": "Poison Tipped",
+  "enchantment.keegsweapons.poison_tipped.desc": "Gives poison to target when attacking",
+  "enchantment.keegsweapons.pathfinder": "Pathfinder",
+  "enchantment.keegsweapons.pathfinder.desc": "Increases speed when walking over path blocks",
+  "enchantment.keegsweapons.leech": "Leech",
+  "enchantment.keegsweapons.leech.desc": "Attacking heals you",
+  "enchantment.keegsweapons.dash": "Dash",
+  "enchantment.keegsweapons.dash.desc": "Right-Click to dash forward",
+  "enchantment.keegsweapons.expert": "Expert",
+  "enchantment.keegsweapons.expert.desc": "Gives player more experience",
+  "enchantment.keegsweapons.illager_bane": "Illager Bane",
+  "enchantment.keegsweapons.illager_bane.desc": "Deals more damage to illagers",
+  "enchantment.keegsweapons.double_jump": "Double Jump",
+  "enchantment.keegsweapons.double_jump.desc": "Allows you to perform a second jump",
+  "enchantment.keegsweapons.rage": "Rage",
+  "enchantment.keegsweapons.rage.desc": "Increases attack speed by .1 for each level when you fall below half health",
+  "enchantment.keegsweapons.gravity": "Gravity",
+  "enchantment.keegsweapons.gravity.desc": "Pulls entities towards you",
+  "enchantment.keegsweapons.frostfall": "Frostfall",
+  "enchantment.keegsweapons.frostfall.desc": "Inflicts freezing damage",
+
+  "tooltip.keegsweapons.two_handed.tooltip": "Attack Speed Decreases When Your Offhand Is Full",
+  "tooltip.keegsweapons.hold_shift.tooltip": "Two-Handed: Hold §eSHIFT§r",
+  "tooltip.keegsweapons.wip": "W.I.P.",
+
+  "death.attack.reapers_scythe_ability": "%1$s was relieved of their soul whilst fighting %2$s",
+  "death.attack.reapers_scythe_ability.player": "%1$s was relieved of their soul whilst fighting %2$s while trying to escape %3$s",
+  "death.attack.reapers_scythe_ability.item": "%1$s was relieved of their soul whilst fighting %2$s using %3$s",
+
+  "death.attack.shockwave": "%1$s was shockwaved by %2$s",
+  "death.attack.shockwave.player": "%1$s was shockwaved by %2$s whilst trying to escape %3$s",
+  "death.attack.shockwave.item": "%1$s was shockwaved by %2$s using %3$s",
+
+  "death.attack.reaper_scythe": "%1$s was reaped by %2$s",
+  "death.attack.reaper_scythe.player": "%1$s was reaped by %2$s whilst trying to escape %3$s",
+  "death.attack.reaper_scythe.item": "%1$s was reaped by %2$s using %3$s",
+
+  "death.attack.grand_assassins_dagger": "%1$s was stabbed by %2$s",
+  "death.attack.grand_assassins_dagger.player": "%1$s was stabbed by %2$s whilst trying to escape %3$s",
+  "death.attack.grand_assassins_dagger.item": "%1$s was stabbed by %2$s using %3$s",
+
+  "death.attack.shoguns_katana": "%1$s was sliced by %2$s",
+  "death.attack.shoguns_katana.player": "%1$s was sliced by %2$s whilst trying to escape %3$s",
+  "death.attack.shoguns_katana.item": "%1$s was sliced by %2$s using %3$s",
+
+  "death.attack.kingly_greatsword": "%1$s was crushed by %2$s",
+  "death.attack.kingly_greatsword.player": "%1$s was crushed by %2$s whilst trying to escape %3$s",
+  "death.attack.kingly_greatsword.item": "%1$s was crushed by %2$s using %3$s",
+
+  "death.attack.grounded": "%1$s was grounded permanently",
+
+  "key.category.keegsweapons.keegsweapons": "Keegs Weapons",
+  "key.keegsweapons.dash": "Dash",
+
+  "entity.keegsweapons.reapers_scythe_ability" : "Reapers Scythe Ability",
+
+  "effect.keegsweapons.grounded" : "Grounded",
+  "effect.keegsweapons.freezing" : "Freezing",
+
+  "itemgroup.keegsweapons.keegsweapons": "Keegs Weapon Mod",
+
+  "gamerule.keegsweapons.do_weapon_forge_structures_spawn": "Weapon Forge Structures Spawn",
+  "gamerule.keegsweapons.do_weapon_forge_recipe_blocking": "Weapon Forge Recipe Blocking",
+  "block.keegsweapons.anti_air_beacon.warning": "Your wings start to feel heavy...",
+  "block.keegsweapons.anti_air_beacon.tooltip": "Punishes elytra wearers and phantoms"
+}

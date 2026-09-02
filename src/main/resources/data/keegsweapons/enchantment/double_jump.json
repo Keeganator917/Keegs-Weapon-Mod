@@ -1,0 +1,30 @@
+{
+  "anvil_cost": 14,
+  "description": {
+    "translate": "enchantment.keegsweapons.double_jump"
+  },
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "keegsweapons:double_jump"
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#keegsweapons:exclusive_set/double_jump_set",
+  "max_cost": {
+    "base": 15,
+    "per_level_above_first": 15
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 8,
+    "per_level_above_first": 15
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 2
+}

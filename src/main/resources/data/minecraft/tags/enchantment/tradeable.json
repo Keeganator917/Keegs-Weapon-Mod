@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "keegsweapons:leech",
+    "keegsweapons:poison_tipped",
+    "keegsweapons:dash",
+    "keegsweapons:thundering",
+    "keegsweapons:pathfinder",
+    "keegsweapons:expert",
+    "keegsweapons:illager_bane",
+    "keegsweapons:double_jump",
+    "keegsweapons:rage",
+    "keegsweapons:gravity",
+    "keegsweapons:frostfall"
+  ]
+}

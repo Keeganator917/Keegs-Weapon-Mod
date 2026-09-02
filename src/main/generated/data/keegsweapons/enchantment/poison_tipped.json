@@ -1,0 +1,32 @@
+{
+  "anvil_cost": 10,
+  "description": {
+    "translate": "enchantment.keegsweapons.poison_tipped"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "keegsweapons:poison_tipped"
+        },
+        "enchanted": "attacker"
+      }
+    ]
+  },
+  "exclusive_set": "#keegsweapons:exclusive_set/poison_tipped_set",
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 8
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 8
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#keegsweapons:dagger",
+  "weight": 2
+}

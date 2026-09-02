@@ -1,0 +1,31 @@
+{
+  "anvil_cost": 8,
+  "description": {
+    "translate": "enchantment.keegsweapons.thundering"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "keegsweapons:thundering"
+        },
+        "enchanted": "attacker"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 9
+  },
+  "max_level": 2,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 7
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#keegsweapons:greatsword",
+  "weight": 2
+}

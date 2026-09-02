@@ -1,0 +1,32 @@
+{
+  "required": true,
+  "package": "com.keeganator.keegsweapons.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AnvilScreenHandlerMixin",
+    "BlockMixin",
+    "ChunkGeneratorMixin",
+    "EnchantmentHelperMixin",
+    "FishingMixin",
+    "FurnaceSmeltMixin",
+    "ItemEntityMixin",
+    "ItemStackMixin",
+    "JigsawStructureMixin",
+    "LightningEntityMixin",
+    "LivingEntityMixin",
+    "PlayerAdvancementTrackerMixin",
+    "PlayerEntityMixin",
+    "PlayerEntityRendererMixin",
+    "PlayerEntityRenderStateMixin",
+    "PlayerModelMixin",
+    "ZombieEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+	}
+}

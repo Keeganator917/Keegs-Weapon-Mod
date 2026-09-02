@@ -1,0 +1,30 @@
+{
+  "type": "keegsweapons:weapon_forge",
+  "weapon_type": "scythe",
+    "pattern": [
+      "SSSSSSS",
+      "S#DEENS",
+      "SDECAES",
+      "SKERCES",
+      "SBEEEDS",
+      "SNBWD#S",
+      "SSSSSSS"
+    ],
+    "key": {
+      "D": "minecraft:diamond",
+      "S": "minecraft:soul_sand",
+      "W": "minecraft:wither_skeleton_skull",
+      "C": "minecraft:sculk_catalyst",
+      "#": "minecraft:sculk_sensor",
+      "K": "minecraft:sculk_shrieker",
+      "B": "minecraft:diamond_block",
+      "N": "minecraft:netherite_ingot",
+      "E": "minecraft:echo_shard",
+      "A": "minecraft:amethyst_block",
+      "R": "keegsweapons:netherite_scythe"
+    },
+  "result": {
+    "id": "keegsweapons:reapers_scythe",
+    "count": 1
+  }
+}

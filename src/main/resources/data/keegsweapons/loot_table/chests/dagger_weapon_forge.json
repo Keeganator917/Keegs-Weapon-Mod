@@ -1,0 +1,153 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+    "rolls": 5,
+    "bonus_rolls": 4,
+    "entries": [
+      {
+        "type": "minecraft:item",
+        "name": "minecraft:book",
+        "weight": 2,
+        "functions": [
+          {
+            "function": "minecraft:enchant_randomly",
+            "options": "keegsweapons:poison_tipped"
+          }
+        ]
+      },
+      {
+        "type": "minecraft:item",
+        "name": "minecraft:potion",
+        "weight": 4,
+        "functions": [
+          {
+            "function": "minecraft:set_potion",
+            "id": "minecraft:swiftness"
+          }
+        ]
+      },
+      {
+        "type": "minecraft:item",
+        "name": "minecraft:ender_pearl",
+        "weight": 5
+      },
+      {
+        "type": "minecraft:group",
+        "children": [
+          {
+            "type": "minecraft:item",
+            "name": "keegsweapons:iron_dagger",
+            "weight": 7
+          },
+          {
+            "type": "minecraft:item",
+            "name": "keegsweapons:iron_dagger",
+            "weight": 2,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "only_compatible": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "minecraft:item",
+        "name": "minecraft:rotten_flesh",
+        "weight": 6,
+        "functions": [
+          {
+            "function": "minecraft:limit_count",
+            "limit": 12
+          }
+        ]
+      },
+      {
+        "type": "minecraft:item",
+        "name": "minecraft:cooked_beef",
+        "weight": 4,
+        "functions": [
+          {
+            "function": "minecraft:limit_count",
+            "limit": 8
+          }
+        ]
+      },
+      {
+        "type": "minecraft:item",
+        "name": "minecraft:golden_apple",
+        "weight": 3
+      },
+      {
+        "type": "minecraft:item",
+        "name": "minecraft:gold_ingot",
+        "weight": 4,
+        "functions": [
+          {
+            "function": "minecraft:limit_count",
+            "limit": 4
+          }
+        ]
+      },
+      {
+        "type": "minecraft:group",
+        "children": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:book",
+            "weight": 2,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "only_compatible": true
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:book",
+            "weight": 2,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "only_compatible": true
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "keegsweapons:diamond_dagger",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond",
+            "weight": 2,
+            "functions": [
+              {
+                "function": "minecraft:limit_count",
+                "limit": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "minecraft:item",
+        "name": "minecraft:iron_ingot",
+        "weight": 8,
+        "quality": 0,
+        "functions": [
+          {
+            "function": "minecraft:limit_count",
+            "count": 5,
+            "limit": 8
+          }
+        ]
+      }
+    ]
+  }
+  ]
+}

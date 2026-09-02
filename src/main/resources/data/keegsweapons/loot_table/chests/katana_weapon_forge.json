@@ -1,0 +1,167 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 5,
+      "bonus_rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "keegsweapons:dash"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_rocket",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": 6
+            },
+            {
+              "function": "minecraft:set_firework_explosion",
+              "shape": "burst",
+              "colors": [],
+              "fade_colors": [],
+              "trail": false,
+              "twinkle": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bamboo",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": 8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "keegsweapons:iron_katana",
+              "weight": 7
+            },
+            {
+              "type": "minecraft:item",
+              "name": "keegsweapons:iron_katana",
+              "weight": 2,
+              "functions": [
+                {
+                  "function": "minecraft:enchant_randomly",
+                  "only_compatible": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": 8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_beef",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": 8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:book",
+              "weight": 2,
+              "functions": [
+                {
+                  "function": "minecraft:enchant_randomly",
+                  "only_compatible": true
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:book",
+              "weight": 2,
+              "functions": [
+                {
+                  "function": "minecraft:enchant_randomly",
+                  "only_compatible": true
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "keegsweapons:diamond_katana",
+              "weight": 1
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:diamond",
+              "weight": 2,
+              "functions": [
+                {
+                  "function": "minecraft:limit_count",
+                  "limit": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 8,
+          "quality": 0,
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "count": 5,
+              "limit": 8
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

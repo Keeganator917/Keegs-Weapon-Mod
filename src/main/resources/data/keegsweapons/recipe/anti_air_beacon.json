@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "###",
+    "PAP",
+    "OOO"
+  ],
+  "key": {
+    "#": "minecraft:glass",
+    "P": "minecraft:phantom_membrane",
+    "A": "minecraft:amethyst_block",
+    "O": "minecraft:obsidian"
+  },
+  "result": {
+    "id": "keegsweapons:anti_air_beacon"
+  }
+}
