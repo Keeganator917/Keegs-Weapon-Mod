@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "keegsweapons:weaponsmith_diamond_dagger",
+    "keegsweapons:weaponsmith_diamond_scythe",
+    "keegsweapons:weaponsmith_diamond_greatsword",
+    "keegsweapons:weaponsmith_diamond_katana"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "keegsweapons:block/weapon_forge_unpowered"
+    },
+    "lit=true": {
+      "model": "keegsweapons:block/weapon_forge_powered"
+    }
+  }
+}

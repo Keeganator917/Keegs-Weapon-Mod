@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "keegsweapons:poison_tipped",
+    "minecraft:sharpness",
+    "minecraft:fire_aspect"
+  ]
+}

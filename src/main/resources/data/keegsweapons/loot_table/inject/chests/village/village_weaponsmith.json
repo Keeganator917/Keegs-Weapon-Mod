@@ -1,0 +1,112 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 2.0
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "keegsweapons:iron_dagger",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:unbreaking",
+                "minecraft:fire_aspect",
+                "minecraft:sharpness",
+                "minecraft:bane_of_arthropods",
+                "minecraft:smite",
+                "minecraft:looting"
+              ],
+              "only_compatible": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "keegsweapons:iron_katana",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:unbreaking",
+                "minecraft:fire_aspect",
+                "minecraft:sharpness",
+                "minecraft:bane_of_arthropods",
+                "minecraft:smite",
+                "minecraft:looting"
+              ],
+              "only_compatible": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "keegsweapons:iron_greatsword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:unbreaking",
+                "minecraft:fire_aspect",
+                "minecraft:sharpness",
+                "minecraft:bane_of_arthropods",
+                "minecraft:smite",
+                "minecraft:looting"
+              ],
+              "only_compatible": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "keegsweapons:iron_scythe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:unbreaking",
+                "minecraft:fire_aspect",
+                "minecraft:sharpness",
+                "minecraft:bane_of_arthropods",
+                "minecraft:smite",
+                "minecraft:looting"
+              ],
+              "only_compatible": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "keegsweapons:iron_dagger",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "keegsweapons:iron_katana",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "keegsweapons:iron_greatsword",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "keegsweapons:iron_scythe",
+          "weight": 5
+        }
+      ]
+    }
+  ],
+  "random_sequence": "keegsweapons:inject/chests/village/village_weaponsmith"
+}

@@ -1,0 +1,31 @@
+{
+  "anvil_cost": 12,
+  "description": {
+    "translate": "enchantment.keegsweapons.leech"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "keegsweapons:leech"
+        },
+        "enchanted": "attacker"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 8
+  },
+  "max_level": 2,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 8
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#keegsweapons:scythe",
+  "weight": 2
+}

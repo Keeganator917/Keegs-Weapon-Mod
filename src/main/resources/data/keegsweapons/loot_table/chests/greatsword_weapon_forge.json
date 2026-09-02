@@ -1,0 +1,174 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 5,
+      "bonus_rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "keegsweapons:thundering"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "keegsweapons:thundering",
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "keegsweapons:iron_greatsword",
+              "weight": 7
+            },
+            {
+              "type": "minecraft:item",
+              "name": "keegsweapons:iron_greatsword",
+              "weight": 2,
+              "functions": [
+                {
+                  "function": "minecraft:enchant_randomly",
+                  "only_compatible": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wheat",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": 14
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_beef",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": 8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:book",
+              "weight": 2,
+              "functions": [
+                {
+                  "function": "minecraft:enchant_randomly",
+                  "only_compatible": true
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:book",
+              "weight": 2,
+              "functions": [
+                {
+                  "function": "minecraft:enchant_randomly",
+                  "only_compatible": true
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "keegsweapons:diamond_greatsword",
+              "weight": 1
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:diamond",
+              "weight": 2,
+              "functions": [
+                {
+                  "function": "minecraft:limit_count",
+                  "limit": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "name": "minecraft:bow",
+          "weight": 2,
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:bow",
+              "weight": 4,
+              "functions": []
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:bow",
+              "weight": 1,
+              "functions": [
+                {
+                  "function": "minecraft:enchant_randomly",
+                  "only_compatible": true,
+                  "conditions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 8,
+          "quality": 0,
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "count": 5,
+              "limit": 8
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 6
+  },
+  "gives": {
+    "id": "keegsweapons:iron_dagger"
+  },
+  "max_uses": 5,
+  "xp": 8,
+  "reputation_discount": 0.02
+}
