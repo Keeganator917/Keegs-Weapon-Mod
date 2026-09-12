@@ -1,0 +1,183 @@
+{
+  "parent": "minecraft:adventure/even_more_enchants",
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book"
+    },
+    "title": "Too Many Enchantments!",
+    "description": "Apply each enchantment in the mod at least once",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "leech": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "predicates": {
+            "minecraft:enchantments": [{
+              "enchantments": [
+                "keegsweapons:leech"
+              ]
+            }]
+          }
+        }]
+      }
+    },
+    "dash": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "predicates": {
+            "minecraft:enchantments": [{
+              "enchantments": [
+                "keegsweapons:dash"
+              ]
+            }]
+          }
+        }]
+      }
+    },
+    "thundering": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "predicates": {
+            "minecraft:enchantments": [{
+              "enchantments": [
+                "keegsweapons:thundering"
+              ]
+            }]
+          }
+        }]
+      }
+    },
+    "poison_tipped": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "predicates": {
+            "minecraft:enchantments": [{
+              "enchantments": [
+                "keegsweapons:poison_tipped"
+              ]
+            }]
+          }
+        }]
+      }
+    },
+    "pathfinder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "predicates": {
+            "minecraft:enchantments": [{
+              "enchantments": [
+                "keegsweapons:pathfinder"
+              ]
+            }]
+          }
+        }]
+      }
+    },
+    "expert": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "predicates": {
+            "minecraft:enchantments": [{
+              "enchantments": [
+                "keegsweapons:expert"
+              ]
+            }]
+          }
+        }]
+      }
+    },
+    "double_jump": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "predicates": {
+            "minecraft:enchantments": [{
+              "enchantments": [
+                "keegsweapons:double_jump"
+              ]
+            }]
+          }
+        }]
+      }
+    },
+    "frostfall": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "predicates": {
+            "minecraft:enchantments": [{
+              "enchantments": [
+                "keegsweapons:frostfall"
+              ]
+            }]
+          }
+        }]
+      }
+    },
+    "gravity": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "predicates": {
+            "minecraft:enchantments": [{
+              "enchantments": [
+                "keegsweapons:gravity"
+              ]
+            }]
+          }
+        }]
+      }
+    },
+    "illager_bane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "predicates": {
+            "minecraft:enchantments": [{
+              "enchantments": [
+                "keegsweapons:illager_bane"
+              ]
+            }]
+          }
+        }]
+      }
+    },
+    "rage": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "predicates": {
+            "minecraft:enchantments": [{
+              "enchantments": [
+                "keegsweapons:rage"
+              ]
+            }]
+          }
+        }]
+      }
+    }
+  },
+  "requirements": [
+    ["leech"],
+    ["dash"],
+    ["thundering"],
+    ["poison_tipped"],
+    ["pathfinder"],
+    ["expert"],
+    ["double_jump"],
+    ["frostfall"],
+    ["gravity"],
+    ["illager_bane"],
+    ["rage"]
+  ]
+}

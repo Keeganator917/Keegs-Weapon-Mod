@@ -1,0 +1,216 @@
+{
+  "parent": "minecraft:adventure/root",
+  "display": {
+    "icon": {
+      "id": "keegsweapons:iron_scythe"
+    },
+    "title": "Keeg's Weapons",
+    "description": "Craft one of the new weapon variants",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "wooden_dagger": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keegsweapons:wooden_dagger"
+      }
+    },
+    "wooden_greatsword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keegsweapons:wooden_greatsword"
+      }
+    },
+    "wooden_katana": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keegsweapons:wooden_katana"
+      }
+    },
+    "wooden_scythe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keegsweapons:wooden_scythe"
+      }
+    },
+    "stone_dagger": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keegsweapons:stone_dagger"
+      }
+    },
+    "stone_greatsword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keegsweapons:stone_greatsword"
+      }
+    },
+    "stone_katana": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keegsweapons:stone_katana"
+      }
+    },
+    "stone_scythe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keegsweapons:stone_scythe"
+      }
+    },
+    "copper_dagger": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keegsweapons:copper_dagger"
+      }
+    },
+    "copper_greatsword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keegsweapons:copper_greatsword"
+      }
+    },
+    "copper_katana": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keegsweapons:copper_katana"
+      }
+    },
+    "copper_scythe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keegsweapons:copper_scythe"
+      }
+    },
+    "golden_dagger": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keegsweapons:golden_dagger"
+      }
+    },
+    "golden_greatsword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keegsweapons:golden_greatsword"
+      }
+    },
+    "golden_katana": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keegsweapons:golden_katana"
+      }
+    },
+    "golden_scythe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keegsweapons:golden_scythe"
+      }
+    },
+    "iron_dagger": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keegsweapons:iron_dagger"
+      }
+    },
+    "iron_greatsword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keegsweapons:iron_greatsword"
+      }
+    },
+    "iron_katana": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keegsweapons:iron_katana"
+      }
+    },
+    "iron_scythe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keegsweapons:iron_scythe"
+      }
+    },
+    "diamond_dagger": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keegsweapons:diamond_dagger"
+      }
+    },
+    "diamond_greatsword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keegsweapons:diamond_greatsword"
+      }
+    },
+    "diamond_katana": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keegsweapons:diamond_katana"
+      }
+    },
+    "diamond_scythe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keegsweapons:diamond_scythe"
+      }
+    },
+    "netherite_dagger": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keegsweapons:netherite_dagger"
+      }
+    },
+    "netherite_greatsword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keegsweapons:netherite_greatsword"
+      }
+    },
+    "netherite_katana": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keegsweapons:netherite_katana"
+      }
+    },
+    "netherite_scythe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keegsweapons:netherite_scythe"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wooden_dagger",
+      "wooden_greatsword",
+      "wooden_katana",
+      "wooden_scythe",
+      "stone_dagger",
+      "stone_greatsword",
+      "stone_katana",
+      "stone_scythe",
+      "copper_dagger",
+      "copper_greatsword",
+      "copper_katana",
+      "copper_scythe",
+      "golden_dagger",
+      "golden_greatsword",
+      "golden_katana",
+      "golden_scythe",
+      "iron_dagger",
+      "iron_greatsword",
+      "iron_katana",
+      "iron_scythe",
+      "diamond_dagger",
+      "diamond_greatsword",
+      "diamond_katana",
+      "diamond_scythe",
+      "netherite_dagger",
+      "netherite_greatsword",
+      "netherite_katana",
+      "netherite_scythe"
+    ]
+  ]
+}

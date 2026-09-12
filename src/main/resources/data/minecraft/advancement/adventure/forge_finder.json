@@ -1,0 +1,72 @@
+{
+  "parent": "minecraft:adventure/keegs_weapons",
+  "display": {
+    "icon": {
+      "id": "keegsweapons:scythe_weapon_forge"
+    },
+    "title": "Forge Finder",
+    "description": "Find a weapon forge structure",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "scythe_forge": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": [
+              "keegsweapons:scythe_weapon_forge"
+            ]
+          }
+        }
+      }
+    },
+    "dagger_forge": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": [
+              "keegsweapons:dagger_weapon_forge"
+            ]
+          }
+        }
+      }
+    },
+    "katana_forge": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": [
+              "keegsweapons:katana_weapon_forge"
+            ]
+          }
+        }
+      }
+    },
+    "greatsword_forge": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": [
+              "keegsweapons:greatsword_weapon_forge"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "scythe_forge",
+      "dagger_forge",
+      "katana_forge",
+      "greatsword_forge"
+    ]
+  ]
+}
