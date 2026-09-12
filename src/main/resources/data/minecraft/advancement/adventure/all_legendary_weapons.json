@@ -1,0 +1,46 @@
+{
+  "parent": "minecraft:adventure/legendary_warrior",
+  "display": {
+    "icon": {
+      "id": "keegsweapons:reapers_scythe"
+    },
+    "title": "Great Ally or Great Conqueror?",
+    "description": "Collect all of the legendary weapons",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "weapon_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "keegsweapons:reapers_scythe" }]
+      }
+    },
+    "weapon_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "keegsweapons:grand_assassins_dagger" }]
+      }
+    },
+    "weapon_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "keegsweapons:shoguns_katana" }]
+      }
+    },
+    "weapon_4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "keegsweapons:kingly_greatsword" }]
+      }
+    }
+  },
+  "requirements": [
+    ["weapon_1"],
+    ["weapon_2"],
+    ["weapon_3"],
+    ["weapon_4"]
+  ]
+}
